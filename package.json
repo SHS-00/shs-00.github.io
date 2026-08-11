@@ -1,28 +1,59 @@
 {
-    "name": "by-blog",
-    "title": "BY Blog",
-    "author": "BY <qiubaiyingios@163.com>",
-    "version": "1.7.0",
-    "homepage": "http://qiubaiying.github.io",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/qiubaiying/qiubaiying.github.io"
-    },
-    "bugs": "https://github.com/qiubaiying/qiubaiying.github.io/issues",
-    "devDependencies": {
-        "grunt": ">=1.3.0"
-        "grunt-contrib-less": "~0.11.4",
-        "grunt-contrib-watch": "~0.6.1",
-        "grunt-banner": "~0.2.3",
-        "grunt-contrib-uglify": "~0.5.1"
-    },
-    "scripts": {
-        "preview": "cd _site; python -m SimpleHTTPServer 8020",
-        "py3view": "cd _site; python3 -m http.server 8020",
-        "watch"  : "grunt watch & npm run preview & jekyll serve -w",
-        "py3wa"  : "grunt watch & npm run py3view & jekyll serve -w",
-        "boil"   : "git push boilerplate boilerplate:master",
-        "push"   : "git push origin master --tag",
-        "cafe"   : "git co gitcafe-pages; git merge master; git push gitcafe gitcafe-pages:gitcafe-pages --tag; git co master;"
-    }
+  "name": "ai-website-clone-template",
+  "version": "0.4.0",
+  "private": true,
+  "description": "Clone any website into a clean, modern Next.js codebase using AI coding agents",
+  "author": "JCodesMore",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JCodesMore/ai-website-cloner-template.git"
+  },
+  "homepage": "https://github.com/JCodesMore/ai-website-cloner-template",
+  "bugs": {
+    "url": "https://github.com/JCodesMore/ai-website-cloner-template/issues"
+  },
+  "keywords": [
+    "claude-code",
+    "website-clone",
+    "reverse-engineering",
+    "nextjs",
+    "ai",
+    "template",
+    "tailwindcss",
+    "shadcn-ui"
+  ],
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "typecheck": "tsc --noEmit",
+    "check": "npm run lint && npm run typecheck && npm run build"
+  },
+  "dependencies": {
+    "@base-ui/react": "^1.3.0",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "lucide-react": "^1.6.0",
+    "next": "16.3.0",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "shadcn": "^4.1.0",
+    "tailwind-merge": "^3.5.0",
+    "tw-animate-css": "^1.4.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^24",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.3.0",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
 }
