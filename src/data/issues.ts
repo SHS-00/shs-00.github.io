@@ -7,6 +7,7 @@ export interface Issue {
   heading: string;
   cover: string;
   sections: TOCSection[];
+  fullIssuePdf?: string;
 }
 
 export const issues: Issue[] = [

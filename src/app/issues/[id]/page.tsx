@@ -30,7 +30,7 @@ export default async function IssuePage({
     <>
       <main className="main-content">
         <CoverSection coverSrc={issue.cover} />
-        <TableOfContents heading={issue.heading} sections={issue.sections} />
+        <TableOfContents heading={issue.heading} sections={issue.sections} fullIssuePdf={issue.fullIssuePdf} />
       </main>
       <IssuePagination
         currentIssue={`第一卷 第${id}期`}
