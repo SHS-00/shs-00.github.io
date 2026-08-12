@@ -24,7 +24,7 @@ export default async function IssuePage({
   }
 
   const prevHref = id > 1 ? `/issues/${id - 1}` : undefined;
-  const nextHref = id < 4 ? `/issues/${id + 1}` : undefined;
+  const nextHref = id < 8 ? `/issues/${id + 1}` : undefined;
 
   return (
     <>

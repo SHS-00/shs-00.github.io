@@ -260,6 +260,223 @@ export const issues: Issue[] = [
       },
     ],
   },
+  {
+    id: 5,
+    heading: "第一卷 第5期 2026年3月刊 目录",
+    cover: "/journal/images/cover1.jpg",
+    fullIssuePdf: "https://newliberalarts.hk/file/2026年3月刊/2026年3月刊.pdf",
+    sections: [
+      {
+        category: "栏目：跨界人文",
+        items: [
+          {
+            title: "基于体认翻译学对《洛神赋》英译本比较品析的探微",
+            author: "曾文桃",
+            pdf: "https://newliberalarts.hk/file/2026年3月刊/20260301.pdf",
+          },
+        ],
+      },
+      {
+        category: "栏目：产教协同",
+        items: [
+          {
+            title: "自然与有意的自然——汪曾祺《受戒》美学意义及其构建生成",
+            author: "王琦",
+            pdf: "https://newliberalarts.hk/file/2026年3月刊/2026年3月刊_2.pdf",
+          },
+          {
+            title: "中国新闻传播学的角色转变、知识体系与实践进路",
+            author: "翟万祥",
+            pdf: "https://newliberalarts.hk/file/2026年3月刊/2026年3月刊_3.pdf",
+          },
+          {
+            title: "产教融合背景下《专利代理实务课程》的改革路径与实践",
+            author: "梁小龙",
+            pdf: "https://newliberalarts.hk/file/2026年3月刊/2026年3月刊_4.pdf",
+          },
+          {
+            title: "边境乡村教师美育素养提升：困境何在，路径何寻？",
+            author: "李龙",
+            pdf: "https://newliberalarts.hk/file/2026年3月刊/2026年3月刊_5.pdf",
+          },
+          {
+            title: "面向智能制造与数字经济的地方高校《应用统计学》课程改革研究",
+            author: "刘嘉倩",
+            pdf: "https://newliberalarts.hk/file/2026年3月刊/2026年3月刊_6.pdf",
+          },
+          {
+            title: "新文科视域下六安瓜片非遗的跨学科传播研究——以小红书为例",
+            author: "张钰婷",
+            pdf: "https://newliberalarts.hk/file/2026年3月刊/2026年3月刊_7.pdf",
+          },
+          {
+            title: "产教融合模式下《专利信息检索与应用》课程改革研究",
+            author: "魏佳轩，梁小龙",
+            pdf: "https://newliberalarts.hk/file/2026年3月刊/20260308.pdf",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: 6,
+    heading: "第一卷 第6期 2026年4月刊 目录",
+    cover: "/journal/images/cover1.jpg",
+    fullIssuePdf: "https://newliberalarts.hk/file/202604/2026第4期汇总.pdf",
+    sections: [
+      {
+        category: "栏目：人文思辨",
+        items: [
+          {
+            title: '乡愁的终结与伦理的追问：忻钰坤电影的“恶托邦”书写',
+            author: "袁文丽，朱娅婷",
+            pdf: "https://newliberalarts.hk/file/202604/20260503_1.pdf",
+          },
+        ],
+      },
+      {
+        category: "栏目：时策新声",
+        items: [
+          {
+            title: "离散中的记忆与见证——郁达夫南洋散文的情感解读",
+            author: "曹一蔓",
+            pdf: "https://newliberalarts.hk/file/202604/20260503_2.pdf",
+          },
+          {
+            title: "城市非遗国际传播的叙事创新与突破路径——基于WhereZhengzhou系列短视频的多模态分析",
+            author: "程方敏",
+            pdf: "https://newliberalarts.hk/file/202604/20260503_3.pdf",
+          },
+          {
+            title: "智能语音合成技术创作物蕴含的法律风险与未来进路",
+            author: "朱影",
+            pdf: "https://newliberalarts.hk/file/202604/20260503_4.pdf",
+          },
+          {
+            title: "股东出资义务加速到期制度研究——以《公司法司法解释（征求意见稿）》第24条为中心",
+            author: "刘静",
+            pdf: "https://newliberalarts.hk/file/202604/20260503_5.pdf",
+          },
+          {
+            title: '“赋权”与“复权”:成年人轻微犯罪记录封存制度的构建',
+            author: "林炯泰",
+            pdf: "https://newliberalarts.hk/file/202604/20260503_6.pdf",
+          },
+          {
+            title: '“百千万工程”助力大学生积极心里资本研究',
+            author: "区瀚庭",
+            pdf: "https://newliberalarts.hk/file/202604/20260503_7.pdf",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: 7,
+    heading: "第一卷 第7期 2026年5月刊 目录",
+    cover: "/journal/images/cover1.jpg",
+    fullIssuePdf: "https://newliberalarts.hk/file/2026年5月刊/2026年5月刊整本.pdf",
+    sections: [
+      {
+        category: "栏目：量化视野",
+        items: [
+          {
+            title: "从课堂到实践：新乡市小学科学教育实施现状的调研与反思",
+            author: "潘思阳，桑世飞",
+            pdf: "https://newliberalarts.hk/file/2026年5月刊/20260501.pdf",
+          },
+        ],
+      },
+      {
+        category: "栏目：时策新声",
+        items: [
+          {
+            title: "广东省大学生可持续发展素养认知与行为差异研究",
+            author: "罗欣",
+            pdf: "https://newliberalarts.hk/file/2026年5月刊/20260502.pdf",
+          },
+          {
+            title: "数字化转型对商业银行风险承担的影响研究",
+            author: "陈普晋",
+            pdf: "https://newliberalarts.hk/file/2026年5月刊/20260503.pdf",
+          },
+          {
+            title: "金融素养对家庭养老资产配置广度的影响研究——基于CHFS数据的实证分析",
+            author: "王月盈",
+            pdf: "https://newliberalarts.hk/file/2026年5月刊/20260504.pdf",
+          },
+          {
+            title: '何为·难为·应为：“大思政课”视域下学校体育课程思政一体化探赜',
+            author: "何海华，刘邵凡",
+            pdf: "https://newliberalarts.hk/file/2026年5月刊/20260505.pdf",
+          },
+          {
+            title: "合同无效后财产返还规则的体系构建与司法适用",
+            author: "刘瑜，刘璐",
+            pdf: "https://newliberalarts.hk/file/2026年5月刊/20260506.pdf",
+          },
+          {
+            title: "紧跟前车型高速逃费案中刑法罪名之厘清",
+            author: "罗可成，王瑜",
+            pdf: "https://newliberalarts.hk/file/2026年5月刊/20260507.pdf",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: 8,
+    heading: "第一卷 第8期 2026年6月刊 目录",
+    cover: "/journal/images/cover1.jpg",
+    fullIssuePdf: "https://newliberalarts.hk/file/2026年6月刊/202606.pdf",
+    sections: [
+      {
+        category: "栏目：人文思辨",
+        items: [
+          {
+            title: "中文母语者科技英语写作中逻辑连接词使用研究",
+            author: "花宇，李长安",
+            pdf: "https://newliberalarts.hk/file/2026年6月刊/20260601.pdf",
+          },
+        ],
+      },
+      {
+        category: "栏目：产教协同",
+        items: [
+          {
+            title: "外部推动与内部需求：跨撒哈拉贸易网络形成与发展机制的再考察",
+            author: "李羚",
+            pdf: "https://newliberalarts.hk/file/2026年6月刊/20260602.pdf",
+          },
+        ],
+      },
+      {
+        category: "书评",
+        items: [
+          {
+            title: '及物性系统视域下中美主流媒体“一带一路”报道的对比分析',
+            author: "马毓聪",
+            pdf: "https://newliberalarts.hk/file/2026年6月刊/20260603.pdf",
+          },
+          {
+            title: "AI时代背景下地方高校《作物栽培与种子检验》教学改革探索",
+            author: "石亚飞",
+            pdf: "https://newliberalarts.hk/file/2026年6月刊/20260604.pdf",
+          },
+          {
+            title: "网络舆情对期货市场收益率的影响研究",
+            author: "谢林婧",
+            pdf: "https://newliberalarts.hk/file/2026年6月刊/20260605.pdf",
+          },
+          {
+            title: '超越技术训练：AI 时代竞技体育训练的人文转向——评《The Inner game of the tennis》',
+            author: "周玉琳",
+            pdf: "https://newliberalarts.hk/file/2026年6月刊/20260606.pdf",
+          },
+        ],
+      },
+    ],
+  },
 ];
 
 export function getIssue(id: number): Issue | undefined {

@@ -34,7 +34,7 @@ export function IssuePagination({
       return;
     }
 
-    if (issue > 4) {
+    if (issue < 1 || issue > 8) {
       alert("不存在这个页面");
       return;
     }
