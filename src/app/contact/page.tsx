@@ -3,7 +3,7 @@ import { CoverSection } from "@/components/site/CoverSection";
 export default function ContactPage() {
   return (
     <main className="main-content">
-      <CoverSection coverSrc="/images/cover1.jpg" />
+      <CoverSection coverSrc="/journal/images/cover1.jpg" />
       <div className="right-column">
         <div className="contact-info">
           <h3>联系编辑部</h3>
@@ -32,7 +32,7 @@ export default function ContactPage() {
           <div className="qrcode-image">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src="/images/ewm.png"
+              src="/journal/images/ewm.png"
               alt="微信公众号二维码"
               style={{ borderRadius: 8 }}
             />

@@ -3,7 +3,7 @@ import { CoverSection } from "@/components/site/CoverSection";
 export default function EditorialBoardPage() {
   return (
     <main className="main-content">
-      <CoverSection coverSrc="/images/cover1.jpg" />
+      <CoverSection coverSrc="/journal/images/cover1.jpg" />
       <div className="right-column">
         <div className="editor-info">
           <h3>编辑委员会成员（排名不分先后）</h3>

@@ -13,7 +13,7 @@ export const issues: Issue[] = [
   {
     id: 1,
     heading: "第一卷 第1期 2025年11月刊 目录",
-    cover: "/images/cover1.jpg",
+    cover: "/journal/images/cover1.jpg",
     sections: [
       {
         category: "发刊词",
@@ -96,7 +96,7 @@ export const issues: Issue[] = [
   {
     id: 2,
     heading: "第一卷 第2期 2025年12月刊 目录",
-    cover: "/images/cover-image2.jpeg",
+    cover: "/journal/images/cover-image2.jpeg",
     sections: [
       {
         category: "栏目：人文思辨",
@@ -153,7 +153,7 @@ export const issues: Issue[] = [
   {
     id: 3,
     heading: "第一卷 第3期 2026年1月刊 目录",
-    cover: "/images/cover-image3.jpeg",
+    cover: "/journal/images/cover-image3.jpeg",
     sections: [
       {
         category: "栏目：跨界人文",
@@ -205,7 +205,7 @@ export const issues: Issue[] = [
   {
     id: 4,
     heading: "第一卷 第4期 2026年2月刊 目录",
-    cover: "/images/cover-image4.jpeg",
+    cover: "/journal/images/cover-image4.jpeg",
     sections: [
       {
         category: "栏目：人文思辨",
