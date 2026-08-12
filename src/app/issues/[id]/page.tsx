@@ -2,7 +2,13 @@ import { notFound } from "next/navigation";
 import { CoverSection } from "@/components/site/CoverSection";
 import { TableOfContents } from "@/components/site/TableOfContents";
 import { IssuePagination } from "@/components/site/IssuePagination";
-import { getIssue } from "@/data/issues";
+import { getIssue, issues } from "@/data/issues";
+
+export function generateStaticParams() {
+  return issues.map((issue) => ({
+    id: String(issue.id),
+  }));
+}
 
 export default async function IssuePage({
   params,
